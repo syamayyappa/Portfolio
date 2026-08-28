@@ -503,6 +503,16 @@ const certificateData = {
         verifyText: "",
         image: "images/cert_cisco_original.png",
         desc: "Completed Cisco Networking Academy curriculum covering core operating system principles, process scheduling, memory virtualization, and system security."
+    },
+    purplelane: {
+        title: "UI/UX Design Workshop Certificate",
+        org: "PurpleLane & SASI Institute of Technology & Engineering (Autonomous)",
+        date: "20-08-2025",
+        badge: "Signed by Bhavani Prasad Karrotu (Design Head | Founder - PurpleLane) • ISO 9001:2015",
+        verifyUrl: "",
+        verifyText: "",
+        image: "images/cert_purplelane_original.jpg",
+        desc: "Successfully completed intensive 2-week hands-on workshop on UI/UX Design with PurpleLane, mastering wireframing, high-fidelity Figma prototyping, and user-centric design principles."
     }
 };
 
