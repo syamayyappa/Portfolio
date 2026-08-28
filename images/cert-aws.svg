@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e131d" />
+      <stop offset="100%" stop-color="#182030" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9900" />
+      <stop offset="100%" stop-color="#ffb84d" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="700" fill="url(#bgGrad)" rx="16"/>
+  
+  <!-- Geometric Hexagon Pattern -->
+  <g stroke="rgba(255,153,0,0.15)" stroke-width="2" fill="none">
+    <polygon points="120,80 180,45 240,80 240,150 180,185 120,150" />
+    <polygon points="60,185 120,150 180,185 180,255 120,290 60,255" />
+    <polygon points="120,290 180,255 240,290 240,360 180,395 120,360" />
+    <polygon points="60,395 120,360 180,395 180,465 120,500 60,465" />
+    <polygon points="120,500 180,465 240,500 240,570 180,605 120,570" />
+  </g>
+
+  <!-- Border -->
+  <rect x="25" y="25" width="950" height="650" rx="12" fill="none" stroke="rgba(255,153,0,0.3)" stroke-width="2" />
+  <rect x="35" y="35" width="930" height="630" rx="8" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1" />
+  
+  <!-- AWS Academy Header -->
+  <text x="750" y="90" font-family="'Inter', sans-serif" font-size="28" font-weight="700" fill="#ff9900" letter-spacing="1">aws</text>
+  <text x="805" y="90" font-family="'Inter', sans-serif" font-size="28" font-weight="400" fill="#ffffff" letter-spacing="1">academy</text>
+  <path d="M 750 102 Q 810 120 870 102" stroke="#ff9900" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <polygon points="870,102 862,94 864,106" fill="#ff9900" />
+  
+  <!-- Certificate Title -->
+  <text x="320" y="270" font-family="'Inter', sans-serif" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-0.5">Syam ayyappa ponnada</text>
+  
+  <text x="320" y="325" font-family="'Inter', sans-serif" font-size="22" font-weight="600" fill="#ffb84d">Certificate of Completion for</text>
+  <text x="320" y="365" font-family="'Inter', sans-serif" font-size="28" font-weight="700" fill="#ffffff">AWS Academy Graduate - Cloud Foundations</text>
+  <text x="320" y="398" font-family="'Inter', sans-serif" font-size="18" font-weight="500" fill="#aab2bf">Training Badge • 20 Course Hours Completed</text>
+  
+  <!-- Details Box -->
+  <rect x="320" y="445" width="580" height="135" rx="8" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.08)" />
+  
+  <text x="350" y="485" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#aab2bf">ISSUED ON</text>
+  <text x="350" y="515" font-family="'Inter', sans-serif" font-size="20" font-weight="700" fill="#ffffff">April 27, 2026</text>
+  
+  <text x="560" y="485" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#aab2bf">VERIFICATION</text>
+  <text x="560" y="515" font-family="'Inter', sans-serif" font-size="16" font-weight="600" fill="#ff9900">credly.com/go/Kqy90cVl</text>
+  <text x="350" y="555" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#36d399">✓ Verified Digital Credential</text>
+  
+  <!-- Decorative Badge Icon -->
+  <g transform="translate(140, 290)">
+    <circle cx="50" cy="50" r="55" fill="rgba(255,153,0,0.1)" stroke="#ff9900" stroke-width="3" />
+    <path d="M 30 50 L 45 65 L 72 38" stroke="#36d399" stroke-width="6" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

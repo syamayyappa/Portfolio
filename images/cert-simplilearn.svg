@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="slBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f5f7fa" />
+    </linearGradient>
+    <linearGradient id="slGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8a51d" />
+      <stop offset="100%" stop-color="#e27c00" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="700" fill="url(#slBg)" rx="12"/>
+  
+  <!-- Blue Border and Right Band -->
+  <rect x="25" y="25" width="950" height="650" rx="8" fill="none" stroke="#003b6f" stroke-width="4" />
+  
+  <!-- Navy Blue Accent Panels -->
+  <rect x="720" y="25" width="160" height="650" fill="#0c2340" />
+  <rect x="740" y="25" width="8" height="650" fill="#f8a51d" />
+  
+  <!-- Simplilearn Header -->
+  <g transform="translate(70, 70)">
+    <text x="0" y="32" font-family="'Inter', sans-serif" font-size="28" font-weight="700" fill="#f8a51d">simplilearn</text>
+    <text x="165" y="32" font-family="'Inter', sans-serif" font-size="28" font-weight="800" fill="#0080cb">SkillUp</text>
+  </g>
+  
+  <text x="70" y="180" font-family="'Inter', sans-serif" font-size="22" font-weight="600" fill="#5c6f84" letter-spacing="3">CERTIFICATE OF</text>
+  <text x="70" y="235" font-family="'Inter', serif" font-size="46" font-weight="800" fill="#0c2340">COMPLETION</text>
+  
+  <!-- Candidate Name -->
+  <text x="70" y="325" font-family="'Inter', sans-serif" font-size="34" font-weight="800" fill="#0c2340">PONNADA SYAM AYYAPPA</text>
+  <line x1="70" y1="345" x2="580" y2="345" stroke="#d0d7de" stroke-width="1.5" stroke-dasharray="4,4" />
+  
+  <text x="70" y="380" font-family="'Inter', sans-serif" font-size="16" font-weight="500" fill="#6e7781">has successfully completed the online course:</text>
+  <text x="70" y="425" font-family="'Inter', sans-serif" font-size="28" font-weight="700" fill="#003b6f">Python for Beginners</text>
+  
+  <!-- Metadata -->
+  <text x="70" y="525" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#0c2340">22nd March 2025</text>
+  <text x="70" y="555" font-family="'Inter', sans-serif" font-size="15" font-weight="600" fill="#5c6f84">Certificate code : <tspan font-weight="700" fill="#f8a51d">8077202</tspan></text>
+  
+  <!-- Golden Seal -->
+  <g transform="translate(800, 500)">
+    <circle cx="0" cy="0" r="60" fill="url(#slGold)" stroke="#ffffff" stroke-width="4"/>
+    <circle cx="0" cy="0" r="48" fill="#ffffff" />
+    <path d="M -12 -20 L -12 20 M 12 -20 L 12 20 M 0 -25 L 0 25" stroke="#f8a51d" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  
+  <!-- Signatures -->
+  <text x="600" y="525" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#0c2340">Krishna Kumar</text>
+  <text x="600" y="550" font-family="'Inter', sans-serif" font-size="14" font-weight="500" fill="#6e7781">CEO, Simplilearn</text>
+</svg>

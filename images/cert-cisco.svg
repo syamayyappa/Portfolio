@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="ciscoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="700" fill="url(#ciscoBg)" rx="12"/>
+  
+  <!-- Light wave background pattern on top right -->
+  <path d="M 600 0 Q 800 150 1000 100 L 1000 0 Z" fill="rgba(0,112,210,0.04)" />
+  <path d="M 650 0 Q 850 180 1000 140 L 1000 0 Z" fill="rgba(0,112,210,0.03)" />
+  
+  <!-- Cisco Header -->
+  <g transform="translate(60, 60)">
+    <!-- Cisco bars -->
+    <g fill="#0070d2">
+      <rect x="0" y="20" width="4" height="20" rx="2" />
+      <rect x="8" y="10" width="4" height="30" rx="2" />
+      <rect x="16" y="0" width="4" height="40" rx="2" />
+      <rect x="24" y="10" width="4" height="30" rx="2" />
+      <rect x="32" y="20" width="4" height="20" rx="2" />
+    </g>
+    <text x="45" y="22" font-family="'Inter', sans-serif" font-size="16" font-weight="700" fill="#0070d2">Networking</text>
+    <text x="45" y="38" font-family="'Inter', sans-serif" font-size="16" font-weight="400" fill="#556b82">Academy</text>
+    <text x="0" y="60" font-family="'Inter', sans-serif" font-size="20" font-weight="900" fill="#0070d2" letter-spacing="2">CISCO</text>
+  </g>
+  
+  <text x="500" y="180" font-family="'Inter', sans-serif" font-size="20" font-weight="500" fill="#4a5568" text-anchor="middle">This certificate is awarded to</text>
+  
+  <!-- Candidate Name -->
+  <text x="500" y="250" font-family="'Inter', sans-serif" font-size="40" font-weight="800" fill="#0070d2" text-anchor="middle">Ponnada Syam Ayyappa</text>
+  
+  <text x="500" y="320" font-family="'Inter', sans-serif" font-size="18" font-weight="500" fill="#4a5568" text-anchor="middle">for successfully completing</text>
+  
+  <text x="500" y="385" font-family="'Inter', sans-serif" font-size="34" font-weight="800" fill="#0070d2" text-anchor="middle">Operating Systems Basics</text>
+  
+  <text x="500" y="440" font-family="'Inter', sans-serif" font-size="16" font-weight="500" fill="#4a5568" text-anchor="middle">offered by Networking Academy</text>
+  <text x="500" y="465" font-family="'Inter', sans-serif" font-size="16" font-weight="500" fill="#4a5568" text-anchor="middle">through the Cisco Networking Academy program.</text>
+  
+  <!-- Signatures -->
+  <g transform="translate(100, 560)">
+    <text x="0" y="25" font-family="'Inter', cursive" font-size="26" font-weight="700" fill="#2d3748">Laura Quintana</text>
+    <text x="0" y="48" font-family="'Inter', sans-serif" font-size="14" font-weight="600" fill="#2d3748">Laura Quintana</text>
+    <text x="0" y="66" font-family="'Inter', sans-serif" font-size="12" font-weight="400" fill="#718096">Vice President and General Manager</text>
+    <text x="0" y="82" font-family="'Inter', sans-serif" font-size="12" font-weight="400" fill="#718096">Cisco Networking Academy</text>
+  </g>
+  
+  <!-- Date -->
+  <g transform="translate(850, 580)" text-anchor="end">
+    <text x="0" y="20" font-family="'Inter', sans-serif" font-size="18" font-weight="700" fill="#2d3748">28 Jan 2025</text>
+    <text x="0" y="40" font-family="'Inter', sans-serif" font-size="13" font-weight="500" fill="#718096">Completion Date</text>
+  </g>
+</svg>

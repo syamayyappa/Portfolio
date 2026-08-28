@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="100%" height="100%">
+  <defs>
+    <linearGradient id="syproBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f8fafc" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1000" height="700" fill="url(#syproBg)" rx="12"/>
+  
+  <!-- Outer Border -->
+  <rect x="25" y="25" width="950" height="650" rx="8" fill="none" stroke="#0056b3" stroke-width="4" />
+  <rect x="35" y="35" width="930" height="630" rx="6" fill="none" stroke="#0056b3" stroke-width="1.5" />
+
+  <!-- Top Metadata -->
+  <text x="60" y="70" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#334455">Reg.No. U72900AP2021PTC119970</text>
+  <text x="60" y="90" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#334455">GSTIN No: 37ABHCS2490P1ZL</text>
+  
+  <!-- Arc Header -->
+  <text x="500" y="130" font-family="'Inter', sans-serif" font-size="28" font-weight="800" fill="#0056b3" text-anchor="middle" letter-spacing="1">Spypro Internship Certificate</text>
+  
+  <!-- Company Title -->
+  <text x="500" y="175" font-family="'Inter', sans-serif" font-size="24" font-weight="800" fill="#112233" text-anchor="middle">SPYPRO SECURITY SOLUTIONS Pvt. Ltd.</text>
+  <text x="500" y="198" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#0056b3" text-anchor="middle" letter-spacing="4">CYBER SECURITY • TRAINING &amp; PROJECTS</text>
+  
+  <!-- Certificate Statement -->
+  <text x="500" y="255" font-family="'Inter', sans-serif" font-size="18" font-weight="500" fill="#445566" text-anchor="middle">This is to Certify that Mr.</text>
+  <text x="500" y="300" font-family="'Inter', sans-serif" font-size="34" font-weight="800" fill="#0056b3" text-anchor="middle">PONNADA SYAM AYYAPPA</text>
+  
+  <text x="500" y="350" font-family="'Inter', serif" font-size="26" font-weight="700" fill="#223344" text-anchor="middle" font-style="italic">Has Successfully Completed the Internship</text>
+  
+  <!-- Course Box -->
+  <rect x="180" y="380" width="640" height="50" rx="8" fill="rgba(0,86,179,0.06)" stroke="#0056b3" stroke-width="1.5" />
+  <text x="500" y="413" font-family="'Inter', sans-serif" font-size="19" font-weight="700" fill="#0056b3" text-anchor="middle">Full Stack Development Using Python (Lyric Search)</text>
+  
+  <!-- Duration & Registration -->
+  <g transform="translate(100, 460)" font-family="'Inter', sans-serif" font-size="15" fill="#334455">
+    <text x="50" y="25"><tspan font-weight="600">Start Date:</tspan> 15/05/2025</text>
+    <text x="320" y="25"><tspan font-weight="600">End Date:</tspan> 30/06/2025</text>
+    <text x="560" y="25"><tspan font-weight="600">Register No:</tspan> 23K61A12A2</text>
+    
+    <text x="50" y="65"><tspan font-weight="600">Branch:</tspan> IT-B</text>
+    <text x="240" y="65"><tspan font-weight="600">College:</tspan> SASI INSTITUTE OF TECHNOLOGY &amp; ENGINEERING</text>
+    <text x="50" y="105"><tspan font-weight="600">Certificate ID:</tspan> <tspan font-weight="700" fill="#0056b3">SSSFS0450</tspan></text>
+  </g>
+  
+  <!-- Signatures -->
+  <text x="750" y="625" font-family="'Inter', sans-serif" font-size="15" font-weight="700" fill="#112233" text-anchor="middle">Course Co-Ordinator</text>
+  <text x="500" y="660" font-family="'Inter', sans-serif" font-size="13" font-weight="600" fill="#0056b3" text-anchor="middle">www.spyprosecuritysolutions.com</text>
+</svg>
