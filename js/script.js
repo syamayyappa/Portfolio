@@ -59,6 +59,47 @@ if (menuBtn && navLinks) {
 
 
 /* =========================================================
+   2. REPEATING ROLE ANIMATION (Full Stack Developer)
+   ========================================================= */
+
+const typingElement = document.getElementById("typing");
+const roleText = "Full Stack Developer";
+
+let charIndex = 0;
+let isDeleting = false;
+
+function typeRoleEffect() {
+    if (!typingElement) return;
+
+    if (!isDeleting) {
+        typingElement.textContent = roleText.substring(0, charIndex + 1);
+        charIndex++;
+
+        if (charIndex === roleText.length) {
+            isDeleting = true;
+            setTimeout(typeRoleEffect, 2800);
+            return;
+        }
+    } else {
+        typingElement.textContent = roleText.substring(0, charIndex - 1);
+        charIndex--;
+
+        if (charIndex === 0) {
+            isDeleting = false;
+            setTimeout(typeRoleEffect, 600);
+            return;
+        }
+    }
+
+    const speed = isDeleting ? 45 : 90;
+    setTimeout(typeRoleEffect, speed);
+}
+
+// Start repeating animation
+typeRoleEffect();
+
+
+/* =========================================================
    3. SCROLL REVEAL ANIMATION
    ========================================================= */
 
